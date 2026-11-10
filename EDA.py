@@ -6,7 +6,7 @@ import seaborn as sns
 from pathlib import Path
 
 # Load dataset
-file_path = Path(__file__).resolve().parent.parent / "StudentsPerformance.csv"
+file_path = Path(__file__).resolve().parent / "StudentsPerformance.csv"
 df = pd.read_csv(file_path)
 
 print("STUDENT PERFORMANCE DATA ANALYSIS")
