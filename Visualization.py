@@ -5,7 +5,7 @@ import seaborn as sns
 from pathlib import Path
 
 # Load dataset
-base = Path(__file__).resolve().parent.parent
+base = Path(__file__).resolve().parent
 df = pd.read_csv(base / "StudentsPerformance.csv")
 
 # Create charts folder
